@@ -1,0 +1,168 @@
+@font-face {
+	font-family: 'NeoTech'; /*a name to be used later*/
+	src: url('./NeoTech.otf'); /*URL to font*/
+}
+* {
+  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+	margin: 0;
+	padding: 0;
+	margin-left:auto;
+	margin-right:auto;
+}
+body {
+	background-color: rgb(230, 230, 230);
+  overflow: scroll;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.navigation {
+	margin: 0;
+	padding: 15px 0px;
+	background-color: rgb(230, 230, 230);
+	height: auto;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+}
+.navigation ul {
+	padding: 0;
+}
+.navigation a {
+	color: rgb(11,64,103);
+	display: inline-block;
+	font-family: "NeoTech";
+	padding: 5px 15px;
+	margin-top: 20px;
+	font-size: 15px;
+	text-decoration: none;
+}
+.main {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url("background.jpg") no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+	top: 60%;
+	font-family: "NeoTech";
+}
+.main .container {
+	position: relative;
+	top: 60%;
+	font-family: "NeoTech";
+}
+.main a {
+	color: #fff;
+	font-size: 40px;
+	font-style: normal;
+	text-decoration: none;
+	padding: 20px;
+}
+.btn {
+	border-radius: 100px;
+	font-family: 'NeoTech', sans-serif;
+	font-weight: 600;
+	margin: 5px 5px;
+}
+.btn:hover {
+	background-color: rgba(255,253,31,0.9);
+	color: rgb(11, 64, 103);
+}
+.btn-f {
+	border-radius: 100px;
+	background-color: rgba(11, 64, 103,0.8);
+	font-family: 'NeoTech', sans-serif;
+	margin: 5px 5px;
+	padding: 10px;
+}
+.btn-f:hover {
+	background-color: rgba(255,253,31,0.9);
+	color: rgb(11, 64, 103);
+}
+.btn-w:hover {
+	outline:3px solid rgb(255,253,31);
+	color: rgb(11, 64, 103);
+}
+.about{
+	margin: auto;
+  max-width: 900px;
+	padding: 40px 0px 20px 0px;
+	border-bottom: 1px solid rgb(150,150,150);
+}
+.about_me li{
+	text-decoration: none;
+	display: inline-block;
+	text-align: left;
+}
+.about_me h1{
+  margin: 20px 0px;
+	font-family: "NeoTech";
+	color: rgb(11, 64, 103);
+	font-size: 30px;
+	text-align: right;
+	position: relative;
+	top: -80px;
+}
+.about_me p {
+  line-height:18px;
+  margin: 0;
+	text-align: justify;
+	font-family: "NeoTech";
+	color: rgb(11, 64, 103);
+	font-size: 15px;
+	max-width: 500px;
+	min-width: 300px;
+	color: rgb(130,130,130);
+	position: relative;
+	right:-60px;
+}
+.works {
+  padding-top: 180px;
+  font-family: "NeoTech";
+	position: relative;
+	height: auto;
+	z-index: 998;
+	text-align: center;
+	top:0;
+	max-width: 1200px;
+}
+.works li{
+margin: 10px 10px;
+display: inline-block;
+}
+.week-1{
+	background: url("background.jpg") no-repeat center center;
+	background-size: cover;
+	height: 130px;
+	margin-top: 200px;
+	padding-top: 10px;
+	font-family: "Neotech";
+	position: relative;
+	color: #fff;
+}
+.week-1 h1{
+	font-size: 30px;
+	text-align:center;
+}
+.week-1 h2{
+	padding-top: 80px;
+	font-size: 25px;
+	text-align:left;
+	color: rgb(11, 64, 103);
+	max-width: 900px;
+}
+.week-1 li{
+		margin-top: 30px;
+    text-align:center;
+}
+.week-1 p{
+	color: rgb(130,130,130);
+	line-height:18px;
+	font-size:15px;
+	text-align: left;
+	max-width: 900px;
+}
